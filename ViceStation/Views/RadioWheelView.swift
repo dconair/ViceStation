@@ -126,16 +126,16 @@ struct RadioWheelView: View {
     }
 
     private func point(index: Int, count: Int, radius: CGFloat, center: CGPoint) -> CGPoint {
-        let a = angle(index: index, count: count)
-        return CGPoint(x: center.x + cos(a) * radius, y: center.y + sin(a) * radius)
+        let a = CGFloat(angle(index: index, count: count))
+        return CGPoint(x: center.x + CoreGraphics.cos(a) * radius, y: center.y + CoreGraphics.sin(a) * radius)
     }
 
     private func index(at location: CGPoint, center: CGPoint, count: Int, radius: CGFloat) -> Int? {
         let dx = location.x - center.x, dy = location.y - center.y
         guard hypot(dx, dy) > radius * 0.35 else { return nil }
-        var a = atan2(dy, dx) + .pi / 2
+        var a = Double(atan2(dy, dx)) + .pi / 2
         if a < 0 { a += 2 * .pi }
-        let step = 2 * .pi / Double(count)
+        let step = 2 * Double.pi / Double(count)
         return Int((a + step / 2) / step) % count
     }
 }

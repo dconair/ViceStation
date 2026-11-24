@@ -73,7 +73,7 @@ struct Palm: Shape {
             (-35, 0.52, 0.22), (-5, 0.56, 0.32), (160, 0.40, 0.30), (25, 0.44, 0.34),
         ]
         for f in fronds {
-            let rad = f.angle * .pi / 180
+            let rad = CGFloat(f.angle * .pi / 180)
             let len = w * f.length
             let tip = CGPoint(x: top.x + cos(rad) * len, y: top.y + sin(rad) * len + h * f.droop * 0.5)
             let ctrl = CGPoint(x: top.x + cos(rad) * len * 0.55, y: top.y + sin(rad) * len * 0.55 - h * 0.04)

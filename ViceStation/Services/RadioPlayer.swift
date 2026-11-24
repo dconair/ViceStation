@@ -259,7 +259,7 @@ final class TuningNoise {
             if !engine.isRunning { try engine.start() }
         } catch { return }
         node.stop()
-        node.scheduleBuffer(buffer, at: nil, options: [.interrupts])
+        node.scheduleBuffer(buffer, at: nil, options: [.interrupts], completionHandler: nil)
         node.play()
         try? await Task.sleep(for: .seconds(duration))
     }
