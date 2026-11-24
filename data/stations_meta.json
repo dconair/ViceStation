@@ -1,0 +1,23 @@
+[
+ {"name":"Flash FM","genre":"Pop & Dance","hosts":"Robyn, Alex Consani","colors":["#FF2D95","#FFD23F"]},
+ {"name":"VCRR","genre":"Modern Hip-Hop","hosts":"JT, DJ Stevie J","colors":["#111111","#E10600"]},
+ {"name":"Vice City FM","genre":"80s Pop & New Wave","hosts":"\"Weird Al\" Yankovic, Brigitte Nielsen","colors":["#FF4FD8","#00E5FF"]},
+ {"name":"V-Rock","genre":"Classic Rock","hosts":"Lindsey Buckingham, Michael McDonald","colors":["#1B1B1B","#F5C400"]},
+ {"name":"Emotion 98.3","genre":"Soft Rock & Ballads","hosts":"Doug Stanhope","colors":["#7A1FA2","#FF8FB1"]},
+ {"name":"Dirty South Classics","genre":"Southern Rap","hosts":"Trick Daddy, Trina","colors":["#2E7D32","#FFB300"]},
+ {"name":"Honey FM","genre":"R&B & Soul","hosts":"Chilli, T-Boz","colors":["#F59E0B","#7C2D12"]},
+ {"name":"Cocoteo FM","genre":"Modern Latin","hosts":"Bad Bunny, RaiNao","colors":["#10B981","#F97316"]},
+ {"name":"Radio La Ola","genre":"Salsa & Classic Latin","hosts":"Gloria Estefan, Emilio Estefan","colors":["#0EA5E9","#F43F5E"]},
+ {"name":"AfroBank FM","genre":"Afrobeats & Amapiano","hosts":"Burna Boy, Palms Trax","colors":["#FACC15","#15803D"]},
+ {"name":"Radio On-U","genre":"Reggae & Dub","hosts":"Adrian Sherwood","colors":["#16A34A","#DC2626"]},
+ {"name":"The Chamber 106.6","genre":"Metal","hosts":"Kerry King, Tom Araya","colors":["#0A0A0A","#9CA3AF"]},
+ {"name":"Back Country Radio","genre":"Renegade Country","hosts":"Morgan Wallen, Lana Del Rey","colors":["#92400E","#FDE68A"]},
+ {"name":"Gloriana Blues Radio","genre":"Blues","hosts":"Buddy Guy, Keith Richards","colors":["#1E3A8A","#93C5FD"]},
+ {"name":"Stockyard FM","genre":"Indie Dance","hosts":"The Dare, PinkPantheress","colors":["#EC4899","#A3E635"]},
+ {"name":"CircoLoco Records Radio","genre":"House & Techno","hosts":"Seth Troxler, Antonio Carbonaro","colors":["#F8FAFC","#EF4444"]},
+ {"name":"The Vault Radio","genre":"House & Electronic","hosts":"DJ Pretzel","colors":["#374151","#22D3EE"],"secret":true},
+ {"name":"Worldwide FM","genre":"Global Club & Jazz","hosts":"Gilles Peterson","colors":["#F97316","#1F2937"]},
+ {"name":"Kaleidoscope FM","genre":"International Pop","hosts":"Jeremy Irons","colors":["#8B5CF6","#F472B6"]},
+ {"name":"Leonida Jazz Radio","genre":"Jazz Fusion","hosts":"Randy Brecker, Stanley Clarke","colors":["#0F766E","#FCD34D"]},
+ {"name":"Symphony FM","genre":"Classical","hosts":"Yuja Wang","colors":["#F5F5F4","#B45309"]}
+]
